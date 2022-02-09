@@ -2,7 +2,7 @@
 
 #### By _**Z Perez**_
 
-#### _Used looping to display a deck of cards._
+#### _Applied looping to display a deck of cards._
 
 ## Technologies Used
 
