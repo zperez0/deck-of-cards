@@ -3,7 +3,7 @@ $(document).ready(function () {
   const clubRanks = ['ace','2','3','4','5','6','7','8','9','10','jack','queen','king'];
   clubSuit.forEach(function (suit) {
     clubRanks.forEach(function (ranks) {
-    $('#myList').append('<li>' + ranks + ' of ' + suit + '</li>');
+    $('#deck').append('<li>' + ranks + ' of ' + suit + '</li>');
     });
   });
   const diamondSuit = ['diamonds'];
@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   diamondSuit.forEach(function (suit) {
     diamondRanks.forEach(function (ranks) {
-    $('#myList').append('<li>' + ranks + ' of ' + suit + '</li>');
+    $('#deck').append('<li>' + ranks + ' of ' + suit + '</li>');
     });
   });
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
 
   spadeSuit.forEach(function (suit) {
     spadeRanks.forEach(function (ranks) {
-    $('#myList').append('<li>' + ranks + ' of ' + suit + '</li>');
+    $('#deck').append('<li>' + ranks + ' of ' + suit + '</li>');
     });
   });
 
@@ -29,7 +29,7 @@ $(document).ready(function () {
 
   heartSuit.forEach(function (suit) {
     heartRanks.forEach(function (ranks) {
-    $('#myList').append('<li>' + ranks + ' of ' + suit + '</li>');
+    $('#deck').append('<li>' + ranks + ' of ' + suit + '</li>');
     });
   });
 });
