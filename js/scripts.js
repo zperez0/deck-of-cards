@@ -1,15 +1,20 @@
-$(document).ready(function() {
-  
-  const clubSuit = ['club'];
-  const clubRanks = ['ace','2','3','4','5','6','7','8','9','10', 'jack','queen', 'king'];
-
-  clubSuit.forEach(function(suit) {
-    clubRanks.forEach(function(ranks) {
-    $('#myList').append('<li>' + ranks + ' of ' + suit + '</li>');
-    });
-
-  const 
+$(document).ready(function () {
+  const clubSuit = ["clubs"];
+  const clubRanks = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"];
+clubSuit.forEach(function(suit) {
+  clubRanks.forEach(function(ranks) {
+    $("#myList").append("<li>" + ranks + " of " + suit + "</li>");
   });
+});
+    const diamondSuit = ["diamonds"];
+    const diamondRanks = ["ace","2","3","4","5","6","7","8","9","10","jack","queen","king"];
+
+diamondSuit.forEach(function(suit) {
+    diamondRanks.forEach(function(ranks) {
+    $("#myList").append("<li>" + ranks + " of " + suit + "</li>");
+  });
+});
+
 });
 
 
@@ -25,4 +30,3 @@ $(document).ready(function() {
 // clubSuit.forEach(function(club) {
 //   emptyArray.push(clubRanks.concat(club));
 //   console.log(emptyArray);
-
